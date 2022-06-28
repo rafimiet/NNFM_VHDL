@@ -2,12 +2,12 @@
 Nearest Neighbor Filtering Method
 Cite the article as
 
-Mohd Rafi Lone, Ekram Khan, A Good Neighbor is A Great Blessing: Nearest Neighbor Filtering Method to Remove Impulse Noise, Journal of King Saud University - Computer and Information Sciences, 2022, ISSN 1319-1578,
+Lone, M.R. An FPGA Implementation of an Impulse Noise Reduction Algorithm in Visual Sensor Network. Circuits Syst Signal Process (2022). https://doi.org/10.1007/s00034-022-02069-5
 
-https://doi.org/10.1016/j.jksuci.2021.12.020.
+https://doi.org/10.1007/s00034-022-02069-5
 
-https://www.sciencedirect.com/science/article/pii/S1319157821003669
+https://link.springer.com/article/10.1007/s00034-022-02069-5
 
-Abstract: Impulse noise is one of the common noise types that affect images. Median filtering denoising method has been widely used for impulse noise. However, for higher noise levels, the median filter does not work efficiently. In this paper, a very simple nearest neighbor filtering method is proposed for impulse noise reduction. The proposed method exploits the inter-pixel correlation in images. More spatially closer the pixels within an image, more the correlation amongst them. The filter window is partitioned into multiple clusters based on their distance from the pixel that needs to be corrected. The closest non-noisy pixel is searched and is used to replace the corrupted pixel. The proposed method has been simulated for grayscale as well as color images. The simulation results show that the proposed method outperforms the state-of-the- art methods. Also, the computational complexity of the proposed methods is very small as compared to the state-of-the-art denoising methods. The only method that outperforms the proposed method is median filtering method.
+Abstract: In this paper, nearest neighbor filtering method is presented for impulse noise reduction. If a pixel is corrupted by impulse noise, nearest non-noisy pixel can be a better option to replace it. The algorithm is implemented on Zynq ZCU104 field programmable gate array board. The resource requirements are approximately 12 and 20 times lesser in comparison with low-latency median filter and pipelined median filter architecture hardware implementations, respectively. Also the reconstructed image quality is better in comparison with the state-of-the-art denoising methods for noise densities above 20%. The presented architecture is able to denoise 271 high definition (720p) images per second. This makes the presented method a better choice to be used in memory and resource constrained visual sensor network devices 
 
-Keywords: impulse noise; denoising; nearest neighborhood; noise reduction; salt and pepper noise
+Keywords:  Image denoising · Impulse noise · FPGA implementation · Euclidean distance · Image reconstruction
